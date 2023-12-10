@@ -22,9 +22,14 @@ const AddProducts = () => {
   };
 
   const addToBasket = (item) => {
-    setBasket([...basket, item]);
+    const isAlreadyInBasket = basket.some((basketItem) => basketItem.idCategory === item.idCategory);
+    if (!isAlreadyInBasket) {
+      setBasket([...basket, item]);
+
+    }
     onClose();
   };
+
 
   const getProduct = async () => {
     try {

@@ -31,7 +31,14 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div className="Blog-content"></div>
+          <div className="Blog-content">
+            <h4>BEST PLACES FOR WINE</h4>
+            <p>
+              Phasellus lorem enim, luctus ut velit eget, con-vallis egestas
+              eros.
+            </p>
+            <a href="">Continue Reading</a>
+          </div>
         </div>
         <div className="Blog">
           <div className="Blog-image">
@@ -45,7 +52,15 @@ const Blogs = () => {
               15 DEC 2017
             </div>
           </div>
-          <div className="Blog-content"></div>
+
+          <div className="Blog-content">
+            <h4>Eggs and Cheese</h4>
+            <p>
+              Duis elementum, risus sit amet lobortis nunc justo condimentum
+              ligula, vitae feugiat
+            </p>
+            <a href="">Continue Reading</a>
+          </div>
         </div>
         <div className="Blog">
           <div className="Blog-image">
@@ -59,7 +74,14 @@ const Blogs = () => {
               12 DEC 2017
             </div>
           </div>
-          <div className="Blog-content"></div>
+
+          <div className="Blog-content">
+            <h4>Style the Wedding Party</h4>
+            <p>
+              Sed ornare ligula eget tortor tempor, quis porta tellus dictum.
+            </p>
+            <a href="">Continue Reading</a>
+          </div>
         </div>
       </div>
     </div>

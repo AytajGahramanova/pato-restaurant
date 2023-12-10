@@ -4,8 +4,10 @@ import Discover from "../../../pages/client/Home/sections/Discover";
 import OurStory from "./sections/OurStory";
 import Products from "../../../pages/client/Home/sections/Products";
 import Events from "../../../pages/client/Home/sections/Events";
+import Rezervation from "../../../pages/client/Home/sections/Rezervation";
 import Blogs from "../../../pages/client/Home/sections/Blogs";
 import SignUp from "./sections/SignUp";
+
 
 const Header = () => {
   return (
@@ -15,6 +17,7 @@ const Header = () => {
       <Discover />
       <Products />
       <Events />
+      <Rezervation />
       <Blogs />
       <SignUp />
     </div>

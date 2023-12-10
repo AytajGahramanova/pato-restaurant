@@ -39,3 +39,42 @@
   border-radius: 8px;
   cursor: pointer;
 }
+.Blog-content h4 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 22px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 2;
+}
+.Blog-content h4:hover {
+  color: #d61c22;
+  transition: all 0.3s;
+}
+.Blog-content p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  max-width: 370px;
+}
+
+.Blog-content a {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  color: #666666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  line-height: 4;
+}
+.Blog-content {
+  padding-top: 35px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}

@@ -1,0 +1,63 @@
+.rezervation {
+  margin-top: 10px;
+  background-color: #efefef;
+  padding: 60px;
+}
+.rezervation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book-table {
+  margin-bottom: 30px;
+}
+.book-table .title {
+  font-family: Courgette;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 20%;
+}
+.book-table h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+  letter-spacing: 6px;
+}
+.rezervation-content input {
+  padding: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  width: 250px;
+  border-radius: 8px;
+  margin-top: 10px;
+  outline: red;
+}
+.rezervation-content input:focus {
+  border: 2px solid red;
+}
+.rezervation-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-left: 35%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.rezervation-button:hover {
+  background-color: #ec1d25;
+  transition: all 0.3s;
+}
+.rezervation-image img {
+  max-width: 390px;
+  border-radius: 10px;
+}
+.rezervation-image {
+  overflow: hidden;
+  border-radius: 10px;
+}
