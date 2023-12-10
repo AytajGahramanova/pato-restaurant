@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "salam",
+      "phone": "12345678",
+      "email": "kuyfutv",
+      "textarea": "fljo",
+      "id": 1
+    },
+    {
+      "name": "Aytac",
+      "phone": "12345677890",
+      "email": "aytac@mail.com",
+      "textarea": "necesen",
+      "id": 2
+    }
+  ]
+}

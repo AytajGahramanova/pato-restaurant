@@ -1,0 +1,54 @@
+.Events span {
+  font-family: Courgette;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+}
+.Events h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+  margin-bottom: 20px;
+}
+.Events {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  text-align: center;
+}
+
+.events-content {
+  background-color: white;
+  padding: 53px 40px;
+  border-radius: 5px;
+}
+.events-image {
+  width: 500px;
+}
+.events-content h4 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.events-content-p {
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+}
+.times {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.days {
+  margin: 20px;
+}
